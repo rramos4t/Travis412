@@ -8,14 +8,4 @@ public class SimpleCalculator {
 	
 
 	
-	// multiply operation
-	public int multiply(int a, int b) {
-		return a * b;
-	}
-	
-	// divide operation
-	public int divide(int a, int b) {
-		return a / b;
-	}
-	
 }

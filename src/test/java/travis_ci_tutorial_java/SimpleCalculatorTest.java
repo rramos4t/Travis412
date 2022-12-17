@@ -7,12 +7,14 @@ import org.junit.*;
 
 public class SimpleCalculatorTest {
 	@Test
-	public void testOperator() {
+	public void testAdd() {
 		SimpleCalculator calc = new SimpleCalculator();
 		assertEquals(calc.add(1, 1), 2);
-		calc.minus(5, 3);
-	}
+	}	
 	
-	
-	
+	@Test
+	public void testMinus() {
+		SimpleCalculator calc = new SimpleCalculator();
+		assertEquals(calc.minus(1, 1), 2);
+	}	
 }
