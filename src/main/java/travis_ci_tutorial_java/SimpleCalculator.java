@@ -6,10 +6,7 @@ public class SimpleCalculator {
 		return a + b;
 	}
 	
-	// minus operation
-	public int minus(int a, int b) {
-		return a - b;
-	}
+
 	
 	// multiply operation
 	public int multiply(int a, int b) {
