@@ -11,4 +11,16 @@ public class SimpleCalculator {
 		return a - b;
 	}
 	
+	// multiply operation
+	public int multiply(int a, int b) {
+		return a * b;
+	}
+	
+	// divide operation
+	public int divide(int a, int b) {
+		if (b == 0) {
+			throw new ArithmeticException("denominator cannot be 0");
+		} else return a / b;
+	}
+	
 }
