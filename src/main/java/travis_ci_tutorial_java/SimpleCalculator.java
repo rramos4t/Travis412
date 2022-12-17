@@ -1,6 +1,7 @@
 package travis_ci_tutorial_java;
 
 public class SimpleCalculator {
+	
 	public int add(int a, int b) {
 		return a + b;
 	}
@@ -12,11 +13,12 @@ public class SimpleCalculator {
 	
 	// multiply operation
 	public int multiply(int a, int b) {
-		return a - b;
+		return a * b;
 	}
 	
 	// divide operation
 	public int divide(int a, int b) {
-		return a - b;
+		return a / b;
 	}
+	
 }
