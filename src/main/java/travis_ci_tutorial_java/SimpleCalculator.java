@@ -6,6 +6,11 @@ public class SimpleCalculator {
 		return a + b;
 	}
 	
-
+	// minus operation
+	public int minus(int a, int b) {
+		return a - b;
+	}
+	
+	
 	
 }
