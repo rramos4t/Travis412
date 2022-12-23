@@ -37,11 +37,11 @@ public class SimpleCalculatorTest {
 		assertEquals(calc.divide(-4, -2), 2);
 	}	
 	
-	/*
+
 	@Test
 	public void testDivideZero() {
 		SimpleCalculator calc = new SimpleCalculator();
 		assertEquals(calc.divide(4, 0), 0);
 	}	
-	*/
+
 }
